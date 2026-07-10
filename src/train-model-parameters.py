@@ -134,3 +134,5 @@ if __name__ == "__main__":
     print("\n\n")
 # trigger workflow check
 # retry trigger
+# retry after registering data assets
+# retry after registering data assets
