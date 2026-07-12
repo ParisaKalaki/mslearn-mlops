@@ -107,7 +107,7 @@ def parse_args():
     parser.add_argument("--training_data", dest='training_data',
                         type=str)
     parser.add_argument("--reg_rate", dest='reg_rate',
-                        type=float, default=0.01)
+                        type=float, default=0.1)
     parser.add_argument("--metrics_output", dest='metrics_output',
                         type=str, default=None)
 
@@ -132,3 +132,7 @@ if __name__ == "__main__":
     # add space in logs
     print("*" * 60)
     print("\n\n")
+# trigger workflow check
+# retry trigger
+# retry after registering data assets
+# retry after registering data assets
